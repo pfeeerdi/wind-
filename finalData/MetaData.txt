@@ -1,0 +1,12 @@
+'loc': Koordinaten von Punkten in Deutschland
+'umschließendeTags': umschliessende Tags der OpenStreepMap API für die Koordinaten aus 'loc'
+'benachbarteTags': benachbarte Tags der OpenStreepMap API für die Koordinaten aus 'loc'
+'distanceAndWind': python dict, mit allen SDO Stationen (Windmessstationen des DWDs) als key und als value eine Liste mit der Distanz von der 'loc' zu der SDO Station, und der dort über das Jahr durschnittlichen Windgeschwindikeit in "m/s"
+'distancedPointInfo': benachbarter Tag (bestimmte Punkte mit mehr Infos bei OpenStreetMap) und die Category und der Type des Tags 
+'Label': True oder False - ob ein Windkraft dort steht oder nicht
+'Naturmonumente': ob der Punkt in einem Naturmonument liegt
+'Nationalparke': ob der Punkt in einem Nationalpark liegt
+'Vogelschutzgebiet': ob der Punkt in einem Vogelschutzgebiet liegt
+'Landschaftsschutzgebiete': ob der Punkt in einem Landschaftsschutzgebiet liegt
+'Naturschutzgebiete': ob der Punkt in einem Naturschutzgebiet liegt
+'Biosphaerenreservate' ob der Punkt in einem Biosphaerenreservate liegt
